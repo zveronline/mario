@@ -1,4 +1,4 @@
-FROM node:10-alpine AS build-stage
+FROM node:18-alpine AS build-stage
 LABEL maintainer="mail@zveronline.ru"
 
 WORKDIR /app
@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 RUN npm install --legacy-peer-deps
-RUN npx grunt
+RUN npx grunt --force
 
 FROM nginx:alpine AS production-stage
 LABEL maintainer="mail@zveronline.ru"
