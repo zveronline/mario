@@ -1,4 +1,4 @@
-FROM node:18-alpine AS build-stage
+FROM node:14-alpine AS build-stage
 LABEL maintainer="mail@zveronline.ru"
 
 WORKDIR /app
