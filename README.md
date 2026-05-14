@@ -5,7 +5,7 @@
 
 ## How to Play
 
-Although you may no longer play on [fullscreenmario.com](http://www.fullscreenmario.com), it is easy to play your own copy.
+Although you may no longer play on [fullscreenmario.com](https://mario.zveronline.ru), it is easy to play your own copy.
 
 #### Newcomers (non-coders)
 
